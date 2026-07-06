@@ -1,0 +1,41 @@
+@import url('');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aldrich', sans-serif;
+}
+
+body{
+    background: #0f1117;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+.submit{
+    background-color: skyblue;
+    color: lightsalmon;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.submit:hover{
+    transform: scale(1.05);
+}
+
+.submit:active{
+    transform: scale(0.97);
+}
+
