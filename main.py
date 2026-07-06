@@ -14,5 +14,7 @@ response = client.chat.completions.create(
                 "Return with VALID JSON ONLY",
         },
     ]
+)
+
 
 
